@@ -1,0 +1,98 @@
+﻿@page
+@model Inventoryx.Pages.Employees.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Employees</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form asp-action="OnGetAsync" method="get">
+    <div class="container">
+        <div class="row">
+            <div class="col w-auto">
+                <p>
+                    Find by Employee Name:  <input type="text" name="NameSearch" value="@ViewData["NameFilter"]" />
+                    <input type="submit" value="Search" class="btn btn-default" /> 
+                </p>
+            </div>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].Function)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].Department)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].Company)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].Email)
+            </th>
+            <th>
+                Is Active
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Employee) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Function)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Department)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Company)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.EmployeeId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.EmployeeId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.EmployeeId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

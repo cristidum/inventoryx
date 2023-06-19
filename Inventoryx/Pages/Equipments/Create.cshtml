@@ -1,0 +1,84 @@
+﻿@page
+@using Inventoryx.Models;
+@model Inventoryx.Pages.Equipments.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Equipment</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Equipment.Name" class="control-label"></label>
+                <input asp-for="Equipment.Name" class="form-control" />
+                <span asp-validation-for="Equipment.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Equipment.Type" class="control-label"></label>
+                <input asp-for="Equipment.Type" class="form-control" />
+                <span asp-validation-for="Equipment.Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Equipment.SerialNumber" class="control-label"></label>
+                <input asp-for="Equipment.SerialNumber" class="form-control" />
+                <span asp-validation-for="Equipment.SerialNumber" class="text-danger"></span>
+            </div>
+            <p align="center" style="color:red">@Html.ValidationMessage("DuplicateSN")</p>
+            <div class="form-group">
+                <label asp-for="Equipment.ADName" class="control-label"></label>
+                <input asp-for="Equipment.ADName" class="form-control" />
+                <span asp-validation-for="Equipment.ADName" class="text-danger"></span>
+            </div>
+            <p align="center" style="color:red">@Html.ValidationMessage("DuplicateADName")</p>
+            <div class="form-group">
+                <label asp-for="Equipment.Configuration" class="control-label"></label>
+                <input asp-for="Equipment.Configuration" class="form-control" />
+                <span asp-validation-for="Equipment.Configuration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Equipment.WindowsLicence" class="control-label"></label>
+                <input asp-for="Equipment.WindowsLicence" class="form-control" />
+                <span asp-validation-for="Equipment.WindowsLicence" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Equipment.OfficeLicence" class="control-label"></label>
+                <input asp-for="Equipment.OfficeLicence" class="form-control" />
+                <span asp-validation-for="Equipment.OfficeLicence" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Equipment.AcquisitionCompany" class="control-label"></label>
+                <input asp-for="Equipment.AcquisitionCompany" class="form-control" />
+                <span asp-validation-for="Equipment.AcquisitionCompany" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Equipment.Location" class="control-label"></label>
+                <input asp-for="Equipment.Location" class="form-control" />
+                <span asp-validation-for="Equipment.Location" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Equipment.Details" class="control-label"></label>
+                <input asp-for="Equipment.Details" class="form-control" />
+                <span asp-validation-for="Equipment.Details" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <br />
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <br />
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,173 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Inventoryx
+build_property.RootNamespace = Inventoryx
+build_property.ProjectDir = C:\Users\cristian.dumitru\Desktop\project\Licenta\Inventoryx - 3\Inventoryx\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\cristian.dumitru\Desktop\project\Licenta\Inventoryx - 3\Inventoryx
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Allocations/EquipmentAllocations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsb2NhdGlvbnNcRXF1aXBtZW50QWxsb2NhdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Allocations/EquipmentAllocations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsb2NhdGlvbnNcRXF1aXBtZW50QWxsb2NhdGlvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Allocations/EquipmentAllocations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsb2NhdGlvbnNcRXF1aXBtZW50QWxsb2NhdGlvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Allocations/EquipmentAllocations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsb2NhdGlvbnNcRXF1aXBtZW50QWxsb2NhdGlvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Allocations/EquipmentAllocations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsb2NhdGlvbnNcRXF1aXBtZW50QWxsb2NhdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Employees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Equipments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBtZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Equipments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBtZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Equipments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBtZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Equipments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBtZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Equipments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBtZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Phones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGhvbmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Phones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGhvbmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Phones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGhvbmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Phones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGhvbmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Phones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGhvbmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/test/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/test/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/test/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/test/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/test/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cristian.dumitru/Desktop/project/Licenta/Inventoryx - 3/Inventoryx/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9yfv0sx068

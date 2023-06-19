@@ -1,0 +1,66 @@
+﻿@page
+@model Inventoryx.Pages.Phones.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone[0].SerialNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone[0].AcquisitionCompany)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone[0].Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone[0].Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone[0].Details)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Phone) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SerialNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AcquisitionCompany)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Details)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.PhoneId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.PhoneId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.PhoneId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

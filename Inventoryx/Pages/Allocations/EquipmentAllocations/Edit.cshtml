@@ -1,0 +1,63 @@
+﻿@page
+@model Inventoryx.Pages.Allocations.EquipmentAllocations.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>EquipmentAllocation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="EquipmentAllocation.EquipmentAllocationId" />
+            <div class="form-group">
+                <label asp-for="EquipmentAllocation.AllocationDate" class="control-label"></label>
+                <input asp-for="EquipmentAllocation.AllocationDate" class="form-control" />
+                <span asp-validation-for="EquipmentAllocation.AllocationDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EquipmentAllocation.Details" class="control-label"></label>
+                <input asp-for="EquipmentAllocation.Details" class="form-control" />
+                <span asp-validation-for="EquipmentAllocation.Details" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EquipmentAllocation.EquipmentId" class="control-label"></label>
+                <select asp-for="EquipmentAllocation.EquipmentId" asp-items="@((List<SelectListItem>)ViewData["equipments"])" class="form-control">
+                    <option value="">Select Equipment</option>
+                </select>
+                <span asp-validation-for="EquipmentAllocation.EquipmentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EquipmentAllocation.EmployeeId" class="control-label"></label>
+                <select asp-for="EquipmentAllocation.EmployeeId" asp-items="@((List<SelectListItem>)ViewData["employees"])" class="form-control">
+                    <option value="">Select Employee</option>
+                </select>
+                <span asp-validation-for="EquipmentAllocation.EmployeeId" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="EquipmentAllocation.IsActive" /> @Html.DisplayNameFor(model => model.EquipmentAllocation.IsActive)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+<p hidden>@ViewData["eqId"]</p>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

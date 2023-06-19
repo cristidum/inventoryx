@@ -1,0 +1,95 @@
+﻿@page
+@model Inventoryx.Pages.Equipments.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Equipments</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form asp-action="OnGetAsync" method="get">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center w-auto">
+                <p>
+                    Find by Equipment Name:  <input type="text" name="NameSearch" value="@ViewData["NameFilter"]" />
+                    <input type="submit" value="Search" class="btn btn-default" /> 
+                </p>
+            </div>
+            &nbsp;
+            &nbsp;
+            <div class="col text-center w-auto">
+                <p>
+                    Find by Equipment Serial Number:  <input type="text" name="SnSearch" value="@ViewData["SNFilter"]" />
+                    <input type="submit" value="Search" class="btn btn-default" /> 
+                </p>
+            </div>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="OnGetAsync" asp-route-sortOrder="@ViewData["NameSortParm"]">@Html.DisplayNameFor(model => model.Equipment[0].Name)</a>
+            </th>
+            <th>
+                <a asp-action="OnGetAsync" asp-route-sortOrder="@ViewData["TypeSortParm"]">@Html.DisplayNameFor(model => model.Equipment[0].Type)</a>
+            </th>
+            <th>
+                <a asp-action="OnGetAsync" asp-route-sortOrder="@ViewData["SNSortParm"]">@Html.DisplayNameFor(model => model.Equipment[0].SerialNumber)</a>
+            </th>
+            <th>
+                <a asp-action="OnGetAsync" asp-route-sortOrder="@ViewData["ADNameSortParm"]">@Html.DisplayNameFor(model => model.Equipment[0].ADName)</a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Equipment[0].Configuration)
+            </th>
+            <th>
+                <a asp-action="OnGetAsync" asp-route-sortOrder="@ViewData["StatusSortParm"]">@Html.DisplayNameFor(model => model.Equipment[0].Status)</a>
+            </th>
+            <th>
+                <a asp-action="OnGetAsync" asp-route-sortOrder="@ViewData["LocationSortParm"]">@Html.DisplayNameFor(model => model.Equipment[0].Location)</a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Equipment)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SerialNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ADName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Configuration)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Location)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.EquipmentId">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.EquipmentId">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.EquipmentId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

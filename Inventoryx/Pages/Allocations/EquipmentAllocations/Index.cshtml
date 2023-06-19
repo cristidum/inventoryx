@@ -1,0 +1,85 @@
+﻿@page
+@using Inventoryx.Models
+@model Inventoryx.Pages.Allocations.EquipmentAllocations.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Equipment Allocations</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form asp-action="OnGetAsync" method="get">
+    <div class="container">
+        <div class="row">
+            <div class="col w-auto">
+                <p>
+                    Find by Employee Name:  <input type="text" name="EmployeeName" value="@ViewData["EmployeeName"]" />
+                    <input type="submit" value="Search" class="btn btn-default" />
+                </p>
+            </div>
+            &nbsp;
+            <div class="col w-auto">
+                <p>
+                    Find by Equipment Name:  <input type="text" name="EqName" value="@ViewData["EquipmentName"]" />
+                    <input type="submit" value="Search" class="btn btn-default" />
+                </p>
+            </div>
+            &nbsp;
+            <div class="col w-auto">
+                <p>
+                    Find by Serial Number:  <input type="text" name="SerialNumber" value="@ViewData["SerialNumber"]" />
+                    <input type="submit" value="Search" class="btn btn-default" />
+                </p>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Employee Name
+            </th>
+            <th>
+                Equipment Name
+            </th>
+            <th>
+                Serial Number
+            </th>
+            <th>
+                Allocation Date
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.EquipmentAllocation)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EquipmentName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EquipmentSN)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AllocationDate)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.EquipmentAllocationId">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.EquipmentAllocationId">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.EquipmentAllocationId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
